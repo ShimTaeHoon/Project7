@@ -28,7 +28,11 @@ public class Quiz4 {
 		
 		// 배열의 요소를 한번에 출력
 		 System.out.println(arr); // arr은 참조변수이므로 주소가 출력 됨
-		 Arrays.toString(arr); // Arrays클래스 활용해서 toString으로 배열이 가지고 있는 값을 확인
+		 System.out.println(Arrays.toString(arr)); // Arrays클래스 활용해서 toString으로 배열이 가지고 있는 값을 확인
+		 System.out.println(arr[1]);
+		 System.out.println(arr[2]);
+		 System.out.println(arr[3]);
+		 System.out.println(arr[4]);
 	}
 
 }

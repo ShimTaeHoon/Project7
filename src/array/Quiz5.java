@@ -7,7 +7,6 @@ public class Quiz5 {
 		int[] arr = { 5, 20, 100, 30, 77 };
 		int value = arr[0];
 			
-		
 		for(int i = 0; i < arr.length; i++) {
 		if(arr[i] > value) {
 			value = arr[i];

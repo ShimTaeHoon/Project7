@@ -7,17 +7,11 @@ public class Ex3 {
 		// 10개 크기의 정수형 배열 생성
 		int[] intArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
 				
+		int[] arr = new int[3];
+		
 		// 배열의 요소를 하나씩 꺼내서 출력하기~!
 //		System.out.println(intArr[0]); // 배열이름[인덱스]
 //		System.out.println(intArr[1]);
-//		System.out.println(intArr[2]);
-//		System.out.println(intArr[3]);
-//		System.out.println(intArr[4]);
-//		System.out.println(intArr[5]);
-//		System.out.println(intArr[6]);
-//		System.out.println(intArr[7]);
-//		System.out.println(intArr[8]);
-//		System.out.println(intArr[9]);
 
 		// i를 인덱스로 활용!
 		for(int i = 0; i <= 9; i++){
