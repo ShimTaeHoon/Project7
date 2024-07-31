@@ -13,11 +13,22 @@ public class Quiz7 {
 
 		char[] oldArr = { 'a', 'b', 'c', 'd', 'e' };
 		char[] newArr = new char[2];
+		char[] newnew = { 'f' };
+		
 		
 		System.arraycopy(oldArr, 3, newArr, 0, 2);
 		
 		System.out.println("old : " + Arrays.toString(oldArr));
 		System.out.println("new : " + Arrays.toString(newArr));
+		
+		System.arraycopy(oldArr, 3, newnew, 0, 1);
+		
+		System.out.println(Arrays.toString(newnew));
+		
+		for(int i = 0; i < newnew.length; i++) {
+			char result = newnew[i];
+			System.out.println(result);
+		}
 	
 	}
 

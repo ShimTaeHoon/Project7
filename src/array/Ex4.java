@@ -12,6 +12,7 @@ public class Ex4 {
 			System.out.print(arr[i] + " ");
 		}
 		
+		System.out.println();
 		// 순회 개념(배열의 크기를 몰라도 됨)
 		// 첫번째 요소부터 마지막 요소까지 봄
 		// 람다식 포문: 반복문의 간결한 형태

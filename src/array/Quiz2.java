@@ -11,7 +11,7 @@ public class Quiz2 {
 		
 		System.out.println(intArr[0]);
 		System.out.println(intArr[lastIndex]);
-			
+					
 	}
 
 }

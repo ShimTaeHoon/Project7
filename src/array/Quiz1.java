@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+
 public class Quiz1 {
 
 	public static void main(String[] args) {
@@ -20,7 +22,18 @@ public class Quiz1 {
 		charArr1[2] = 'c';
 		charArr1[3] = 'd';
 		charArr1[4] = 'e';
+		
+		int[] i = {1,2};
+		
+		System.out.println(Arrays.toString(i));
 
+		int[] ii = {1,2,3};
+		
+		for(int j = 0; j < ii.length; j++) {
+			int result = ii[j];
+			System.out.println(result);
+		}
+	
 	}
 
 }
